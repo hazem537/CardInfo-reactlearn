@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 350px;
+  margin: 16px auto;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card--body {
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.skill {
+  padding: 6px;
+  border-radius: 4px;
+  border:1px solid ;
+}
+.skillMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
